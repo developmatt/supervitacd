@@ -1,0 +1,251 @@
+@import "./colors.scss";
+
+.video {
+    height: 650px;
+    width: 100%;
+    background: url('/images/video-background.png');
+    background-size: auto 100%;
+    background-position: center;
+
+    &__container {
+        width: 50%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+
+        &-text {
+            font-size: 35px;
+            color: $purple;
+            font-weight: 300;
+            max-width: 536px;
+            display: block;
+            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            margin-top: 10px;
+
+            &-mobile {
+              display: none;
+            }
+        }
+    }
+
+    &__icon-button {
+        position: absolute;
+        width: 219px;
+        height: 169px;
+        left: calc(50% - 110px);
+        top: 112px;
+        cursor: pointer;
+    }
+}
+
+.main {
+  width: 100%;
+  min-width: 300px;
+  height: 487px;
+  background-image: url("/images/video-main-background.webp");
+  background-position: center;
+  background-size: auto 100%;
+  position: relative;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    height: 367px;
+  }
+
+  &__subtitle {
+    max-width: 567px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 36px;
+    color: $purple;
+
+    &--bold {
+      font-weight: 800;
+    }
+  }
+
+
+  &__safe-buy {
+    position: absolute;
+    top: calc(50% - 50px);
+    right: 0;
+    width: 200px;
+  }
+
+  &__bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.9)
+    );
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      max-width: 1002px;
+      margin: 0 auto;
+    }
+
+    &-block {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      &:first-of-type {
+        margin-right: 112px;
+      }
+    }
+
+    &-icon-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: white;
+      color: white;
+    }
+
+    &-icon {
+      display: block;
+      max-height: 53px;
+      max-width: 60px;
+    }
+
+    &-text {
+      font-size: 20px;
+      color: white;
+      font-weight: 100;
+
+      &-container {
+        margin-left: 20px;
+        max-width: 278px;
+      }
+
+      &--bold {
+        font-weight: 800;
+      }
+
+      &--big {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video {
+    height: 880px;
+    background-image: url('/images/video-background-mobile.png');
+
+    &__container {
+      width: 100%;
+      height: 172px;
+      align-items: center;
+
+      &-image {
+        width: 305px;
+        height: 172px;
+      }
+
+      &-text {
+        display: none;
+
+        &-mobile {
+          display: block;
+          font-size: 20px;
+          color: $purple;
+          width: 315px;
+          margin: 8px auto 72px auto;
+          display: block;
+          text-align: center;
+          line-height: 1.4;
+          letter-spacing: 1.21px;
+
+          &--bold {
+            font-weight: 800;
+          }
+        }
+      }
+    }
+
+    &__icon-button {
+      left: calc(50% + 86px);
+      right: 0;
+      width: 103px;
+      height: 80px;
+      top: 245px;
+    }
+
+    &__image {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .main {
+    height: auto;
+    background-image: none;
+
+    &__subtitle {
+      font-size: 24px;
+      width: 340px;
+      margin: 43px auto 0 auto;
+    }
+
+    &__safe-buy {
+      top: auto;
+      bottom: -100px;
+      left: calc(50% - 100px);
+    }
+
+    &__container {
+      height: 600px;
+      background-image: url('/images/main-background-mobile.webp');
+      background-position: bottom center;
+      background-size: 100% auto;
+    }
+
+    &__bottom {
+      position: relative;
+      background-image: none;
+      height: auto;
+      margin: 117px 0 24px 0;
+
+      &-block:first-of-type {
+        margin-right: 0;
+      }
+
+      &-wrapper {
+        flex-direction: column;
+      }
+
+      &-text {
+        color: $purple;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 591px) {
+  .main__container {
+    background-size: auto;
+  }
+}

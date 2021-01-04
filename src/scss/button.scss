@@ -1,0 +1,53 @@
+@import "./colors.scss";
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+  padding: 0 15px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.6);
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  font-size: 22px;
+  letter-spacing: 1.33px;
+
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
+.btn-large {
+  padding: 0 20px;
+  margin: 40px auto 0 auto;
+}
+
+.btn-purple {
+  color: white;
+  background-color: $purple;
+}
+
+.btn-yellow {
+  color: white;
+  background: linear-gradient(to bottom, $yellow, $yellow2);
+  border: solid 1px #e75c00;
+}
+
+.btn-pink {
+  letter-spacing: 1.33;
+  font-weight: 300;
+  color: white;
+  background: linear-gradient(to bottom, #f294c5, #e15b93);
+  border: solid 1px $pink2;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-large {
+    padding: 0;
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+}

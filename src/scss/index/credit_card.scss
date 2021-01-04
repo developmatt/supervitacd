@@ -1,0 +1,155 @@
+.credit-card {
+    margin-bottom: 38px;
+
+    &__wrapper {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    &__block {
+        display: inline-block;
+
+        &--large {
+            width: 48%;
+        }
+
+        &--medium {
+            color: $pink;
+            font-size: 20px;
+            font-weight: 300;
+            display: flex;
+            padding-top: 20px;
+        }
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 26px;
+        color: $purple;
+        letter-spacing: 0.97;
+    }
+
+    &__card {
+        display: inline-block;
+        width: 60px;
+        height: 40px;
+        background-color: white;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+        background-position: center;
+
+        &-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &--visa {
+            background-image: url('/images/visa.png');
+        }
+
+        &--slip {
+            background-image: url('/images/slip.jpg');
+        }
+
+        &--hypercard {
+            background-image: url('/images/hypercard.png');
+        }
+
+        &--american {
+            background-image: url('/images/american.png');
+        }
+
+        &--master {
+            background-image: url('/images/mastercard.png');
+        }
+
+        &--dinners {
+            background-image: url('/images/dinners.png');
+        }
+
+        &--elo {
+            background-image: url('/images/elo.png');
+        }
+    }
+
+    .parcels {
+        font-size: 16px;
+        max-width: 225px;
+        white-space: normal;
+        display: block;
+        letter-spacing: 0.8px;
+        font-weight: 300;
+        line-height: 26px;
+
+
+        strong {
+            font-weight: 800;
+            font-size: 20px;
+            letter-spacing: 1px;
+
+            &:last-of-type {
+                margin-right: 7px;
+            }
+        }
+
+        .big {
+            font-size: 34px;
+            letter-spacing: 1.7px;
+        }
+    }
+
+    &__parcels {
+        &-image {
+            display: block;
+            width: 47px;
+
+            &-block {
+                width: 48px;
+                height: 45px;
+                overflow: hidden;
+                margin-right: 12px;
+            }
+        }
+    }
+
+    &__correios-div {
+        width: 206px;
+        height: 50px;
+        display: block;
+        background-image: url('/images/icon-correios.png');
+        background-size: 100% auto;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .credit-card {
+        &__wrapper {
+            flex-direction: column;
+            padding: 0 20px;
+        }
+
+        &__card-row {
+            margin-top: 10px;
+        }
+
+        &__block {
+            width: 100%;
+            margin-bottom: 24px;
+        }
+
+        &__text {
+            display: block;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .credit-card__card {
+        width: 38px;
+        height: 25px;
+        background-size: 100%;
+    }
+}

@@ -1,0 +1,141 @@
+@import "./colors.scss";
+@import "../../node_modules/formstone/dist/css/carousel.css";
+
+.comments {
+  width: 100%;
+  min-height: 440px;
+  background-image: url("/images/comments_background.webp");
+  background-size: auto 100%;
+  background-position: center;
+  padding: 40px 0 55px 0;
+  position: relative;
+
+  &__content {
+    position: relative;
+    padding: 0 50px;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 34px;
+    font-weight: 300;
+    color: $blue;
+    text-align: center;
+  }
+
+  &__slider-container {
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+
+  &__controller {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 80px;
+    font-size: 30px;
+    left: 0;
+    color: $blue;
+    cursor: pointer;
+    padding: 10px;
+
+    * {
+      transition: .2s;
+    }
+
+    *:hover {
+      font-size: 35px;
+    }
+
+    &--right {
+      right: 0;
+      left: auto;
+    }
+  }
+
+  &__button {
+    display: inline-flex;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 41px;
+  }
+}
+
+.comment {
+  padding: 0 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: $blue;
+  text-align: left;
+
+  &__image-container {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 6px white;
+  }
+
+  &__image {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__text-block {
+    width: calc(100% - 120px - 22px);
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__text {
+    font-size: 18px;
+  }
+
+  &__name {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 9px 0 4px 0;
+  }
+
+  &__nick {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .comments {
+    &__title {
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 1.33;
+      letter-spacing: 1.45px;
+      width: 245px;
+      margin: 0 auto;
+    }
+
+    &__slider-container {
+      padding: 0 50px;
+    }
+
+    &__content {
+      padding: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .comment {
+    flex-direction: column;
+    align-items: center;
+
+    &__text-block {
+      width: 100%;
+      margin-top: 24px;
+    }
+  }
+}

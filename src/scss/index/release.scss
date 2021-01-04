@@ -1,0 +1,270 @@
+.release {
+  width: 100%;
+  min-height: 720px;
+  background: linear-gradient(to bottom, $purple2, $purple);
+  padding: 35px 0 47px 0;
+
+  &__title {
+    font-size: 34px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+
+    .bold {
+      font-weight: 800;
+    }
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    width: 406px;
+    margin: 0 auto;
+    font-weight: 300;
+    line-height: 26px;
+    margin-top: 10px;
+
+    .bold {
+      font-weight: 800;
+    }
+  }
+
+  .column {
+    width: calc((100% / 3) - 20px);
+
+    &__container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+
+    &__title {
+      font-size: 32px;
+      font-weight: 800;
+      color: white;
+      text-align: center;
+      display: block;
+    }
+
+    &__subtitle {
+      font-size: 24px;
+      color: $purple;
+      font-weight: 800;
+      display: block;
+      text-align: center;
+      margin-bottom: 14px;
+      letter-spacing: 1.45px;
+    }
+
+    &__card {
+      width: 100%;
+      background-color: white;
+      border-radius: 12px;
+      margin-top: 20px;
+      padding: 20px;
+      position: relative;
+    }
+
+    &__image-div {
+      width: 100%;
+      height: 220px;
+      border-radius: 8px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    &__image {
+      object-fit: cover;
+      max-width: 100%;
+      height: 100%;
+    }
+
+    &__data {
+      &-row {
+        display: flex;
+        font-weight: 300;
+        align-items: flex-end;
+        justify-content: space-between;
+        margin-top: 24px;
+        flex-wrap: wrap;
+      }
+
+      &--parcels-div {
+        margin-bottom: 5px;
+      }
+
+      &--parcels {
+        color: $pink;
+        font-size: 16px;
+        max-width: 160px;
+        min-width: 104px;
+        letter-spacing: 0.97px;
+        font-weight: 300;
+
+        .bold {
+          font-weight: 800;
+        }
+
+        .big {
+          font-size: 28px;
+        }
+      }
+
+      &--value {
+        color: $purple;
+        font-weight: 800;
+        font-size: 50px;
+      }
+
+      &--cents {
+        color: $purple;
+        font-size: 24px;
+      }
+
+      &--cypher {
+        font-size: 24px;
+        font-weight: 300;
+      }
+
+      
+    }
+
+    &__button {
+      margin-top: 10px;
+    }
+
+    &__freight {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: -16px;
+      margin: 0 auto;
+      height: 28px;
+      background-color: $pink;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1;
+      max-width: 220px;
+      color: white;
+      font-size: 18px;
+      font-weight: 300;
+      border-radius: 4px;
+      border: solid 1px #ba3b70;
+      letter-spacing: 1.09px;
+    }
+
+    &__total {
+      display: block;
+      width: 100%;
+      font-size: 16px;
+      color: #999999;
+      text-align: right;
+      margin-top: 2px;
+    }
+  }
+
+  .discount {
+    &__badge {
+      width: 80px;
+      height: 80px;
+      background-color: $purple;
+      border-radius: 50%;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-weight: 800;
+      font-size: 20px;
+      position: absolute;
+      right: -3px;
+      bottom: -3px;
+    }
+
+    &__value {
+      font-size: 36px;
+      font-weight: 800;
+
+      .small {
+        font-size: 20px;
+      }
+    }
+
+    &__text {
+      font-weight: 800;
+    }
+  }
+
+  .striked {
+    text-decoration: line-through;
+  }
+}
+
+@media screen and (max-width: 1110px) and (min-width: 769px) {
+  .release {
+    .column__data-row {
+      flex-direction: column;
+    }
+
+    .column__data--parcels {
+      max-width: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .column__button {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .release {
+    &__title {
+      width: 203px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 20px;
+      line-height: 1.6;
+      letter-spacing: 1.21px;
+    }
+
+    &__subtitle {
+      font-size: 16px;
+      width: 282px;
+      line-height: 1.63;
+      letter-spacing: 0.97px;
+    }
+
+    .column {
+      width: 350px;
+      margin-bottom: 40px;
+
+      &__data--parcels {
+        font-size: 14px;
+
+        &-div {
+          margin-bottom: 15px;
+        }
+
+        .big{
+          font-size: 20px;
+        }
+      }
+
+      &__container {
+        flex-direction: column;
+      }
+
+      &__button {
+        height: 68px;
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.composition {
+
+    &__title {
+        margin-top: 40px;
+    }
+
+    &__description {
+        text-align: center;
+        font-size: 16px;
+        color: $gray;
+        font-weight: 300;
+        margin-top: 20px;
+    }
+
+    &__content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 45px;
+        flex-wrap: wrap;
+    }
+
+    &__table-div {
+        margin-bottom: 50px;
+    }
+
+    &__image-div {
+        margin-right: 120px;
+    }
+
+    &__image {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .composition {
+        &__image-div {
+            display: none;
+        }
+
+        &__table-div {
+            margin-bottom: 51px;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .composition {
+        &__table {
+            display: block;
+            width: 100%;
+            
+            &-div {
+                width: calc(100% - 40px);
+                margin: 0 20px 51px 20px;
+            }
+        }
+    }
+}
