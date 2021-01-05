@@ -7,14 +7,14 @@
     <?php require('./components/menu.php'); ?>
 
     <div class="main__container wrapper">
-      <h2 class="main__title">PODEROSÍSSIMO PARA UM<br><span class="main__title--bold">SUPER POLIVITAMÍNICO INFANTIL!</span> </h2>
-
-      <h3 class="main__subtitle">Suplemento alimentar em <span class="main__subtitle--bold">Goma de Pectina.</span>
-      </h3>
+      <h2 class="main__title">SUPLEMENTO ALIMENTAR EM PASTILHA DE GOMA DE VITAMINAS</h2>
 
       <a href="#" class="main__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
 
-      <img src="./images/selo.webp" alt="Selo compra segura" class="main__safe-buy">
+      <img src="./images/pills.png" alt="Vitaminas C, D e Zinco" class="main__pills">
+
+
+      <img src="./images/selo.png" alt="Selo compra segura" class="main__safe-buy">
 
 
     </div>
@@ -46,55 +46,70 @@
     </div>
   </section>
 
-
-  <section id="video" class="video">
-    <div class="wrapper">
-      <div class="video-container">
-        <div class="youtube-video-place embed-responsive embed-responsive-4by3 " data-yt-url="https://www.youtube.com/embed/fNmxNS25Wf4?rel=0&showinfo=0&autoplay=0">
-          <img src="/images/video-thumbnail.png" async class="play-youtube-video">
-        </div>
-
-        <!-- <iframe width="600" height="338" src="https://www.youtube.com/embed/fNmxNS25Wf4" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe> -->
+  <section id="virus" class="virus">
+    <div class="wrapper virus-container">
+      <div class="virus-container__text">
+        <h2 class="virus__title">Contra o novo vírus</h2>
+        <span class="virus__text">Atualmente as vitaminas <strong>C, D e Zinco</strong> têm sido constantemente mencionadas em <strong>artigos científicos pelo mundo inteiro</strong>, pois resultados demostram que a ação conjunta dessas substâncias <strong>auxilia no funcionamento do sistema imunológico e ajuda na produção de anticorpos</strong>.</span>
       </div>
 
-      <div class="text-container">
-        <img src="/images/strawberry-play.png" alt="" class="text-container__image">
-        <span class="text-container__text">O melhor <strong>POLIVITAMÍNICO INFANTIL</strong> para o seu filho!</span>
+      <div class="virus-container__image-div">
+        <img src="/images/virus.png" alt="" class="virus-container__image">
       </div>
     </div>
   </section>
 
 
-  <section id="advantages" class="advantages wrapper">
-    <h2 class="advantages__title">QUAIS SÃO AS VANTAGES DO SUPER VITA KIDS?</h2>
+  <section id="video" class="video">
+    <div class="wrapper">      
+      <div class="video-container">
 
-    <div class="advantages__container">
-      <div class="advantages__block">
-        <div class="advantages__block-image-div">
-          <img src="/images/vegetables-fruits.png" class="advantages__block-image" alt="">
-        </div>
-        <h3 class="advantages__block-title">VITAMINAS E</br>MINERAIS</h3>
-        <p>Duas gomas de <strong>Supervita Kids</strong> apresenta <strong>10 vitaminas e 4 mineirais</strong> essenciais para a complementação alimentar infantil.</p>
+        <iframe width="600" height="338" src="https://www.youtube.com/embed/fNmxNS25Wf4" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
       </div>
 
-      <div class="advantages__block">
-        <div class="advantages__block-image-div">
-          <img src="/images/gum.png" class="advantages__block-image" alt="">
+      <div class="text-container">
+        <img src="/images/orange-play.png" alt="" class="text-container__image">
+        <div class="text-container__div">
+          <h2 class="text-container__title">Vitamina C, D e Zinco</h2>
+          <span class="text-container__text">Polivitamínico Supervita Sabor Cereja é um suplemento em gomas de pectina.</span>
         </div>
-        <h3 class="advantages__block-title">GOMA DE PECTINA</h3>
-        <p>A goma <strong>Supervita Kids</strong> é feita com <strong>pectina vegetal</strong> são especialmente formuladas pra oferecer um eficiente apoio nutricional complementando a alimentação das crianças.</p>
-      </div>
-
-      <div class="advantages__block">
-        <div class="advantages__block-image-div">
-          <img src="/images/kid.png" class="advantages__block-image" alt="">
-        </div>
-        <h3 class="advantages__block-title">IMUNIDADE</h3>
-        <p><strong>Supervita Kids</strong> é um produto que juntamente com a alimentação do dia a dia auxilia no aumento da imunidade do seu filho.</p>
       </div>
     </div>
+  </section>
 
-    <a href="#" class="advantages__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
+
+  <section id="advantages" class="advantages">
+    <div class="wrapper">
+      <h2 class="advantages__title">Benefícios do Supervita Kids</h2>
+
+      <h3 class="advantages__subtitle">Entenda melhor os <strong>benefícios</strong> desse <strong>extraordinário polivitamínico</strong> para saúde de nossos filhos.</h3>
+
+      <div class="advantages__container">
+        <div class="advantages__block">
+          <div class="advantages__block-image-div">
+            <img src="/images/vegetables-fruits.png" class="advantages__block-image" alt="">
+          </div>
+          <h3 class="advantages__block-title">VITAMINA C</h3>
+          <p>A <strong>Vitamina C</strong> possui potente <strong>ação antioxidante</strong>, ajudando a prevenir que as células imunes sofram dano oxidativo (prejuízo causado pelo excesso de radicais livres). Além disso, a vitamina C pode <strong>reduzir o tempo de infecção de gripes e resfriados</strong>.</p>
+        </div>
+
+        <div class="advantages__block">
+          <div class="advantages__block-image-div">
+            <img src="/images/gum.png" class="advantages__block-image" alt="">
+          </div>
+          <h3 class="advantages__block-title">VITAMINA D</h3>
+          <p>A <strong>Vitamina D3</strong> ajuda a <strong>fortalecer as células de infecções respiratórias</strong> causadas por <strong>VÍRUS</strong> e <strong>BÁCTÉRIAS</strong>. Estudo feito em <strong>20 países</strong> aponta que o baixo nível de vitamina D no corpo pode estar relacionado a uma maior taxa de mortalidade pelo <strong>NOVO VÍRUS</strong>.</p>
+        </div>
+
+        <div class="advantages__block">
+          <div class="advantages__block-image-div">
+            <img src="/images/kid.png" class="advantages__block-image" alt="">
+          </div>
+          <h3 class="advantages__block-title">ZINCO</h3>
+          <p>A presença do <strong>Zinco</strong> é <strong>essencial para as células imunes</strong>, que por sua vez contém enzimas que dependem desse mineral para funcionar de maneira correta. Além de ter um poder <strong>antioxidante e anti-inflamatório</strong> no corpo. Estudos apontam que curtos períodos de <strong>suplementação com zinco podem reduzir o impacto de muitas doenças</strong>.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="comments">

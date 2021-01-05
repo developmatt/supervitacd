@@ -42,7 +42,10 @@
         &-link {
             padding: 15px 20px;
             cursor: pointer;
-            color: $purple;
+            color: $orange2;
+            font-weight: 800;
+            letter-spacing: 1.09;;
+            font-size: 18px;
         }
     
         &:last-of-type {
@@ -184,7 +187,7 @@
         &__link {
             display: block;
             font-size: 18px;
-            color: $purple;
+            color: $orange;
             padding: 10px 0;
             cursor: pointer;
         }

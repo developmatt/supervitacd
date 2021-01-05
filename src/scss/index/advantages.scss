@@ -1,18 +1,36 @@
 @import "./colors.scss";
 
 .advantages {
-  padding: 41px 0;
+  padding: 40px 0 80px 0;
+  background-color: #fff1d9;
 
   &__title {
+    font-size: 42px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: 2.55px;
     text-align: center;
-    font-size: 34px;
-    color: $pink;
-    font-weight: 300;
+    color: $orange2;
+  }
+
+  &__subtitle {
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 1.45px;
+    text-align: center;
+    color: $orange2;
+    margin: 24px auto 0 auto;
+    max-width: 896px;
+    width: 100%;
   }
 
   &__container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     margin-top: 30px;
   }
@@ -31,6 +49,7 @@
     border-radius: 12px;
     overflow: hidden;
     position: relative;
+    background-color: #fff;
 
     &-image-div {
       height: 240px;

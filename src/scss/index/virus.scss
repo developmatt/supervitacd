@@ -1,0 +1,35 @@
+@import "./colors.scss";
+
+.virus {
+
+    padding-top: 35px;
+
+    &-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        &__image {
+            width: 281px;
+        }
+    }
+
+    &__title {
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 1;
+        letter-spacing: 2.42px;
+        color: $orange2;
+    }
+
+    &__text {
+        display: block;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.33;
+        letter-spacing: 1.09px;
+        color: $gray;
+        margin-top: 24px;
+        max-width: 780px;
+    }
+}
