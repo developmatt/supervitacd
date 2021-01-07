@@ -47,6 +47,13 @@
   border: solid 1px $pink2;
 }
 
+.btn-blue {
+  border: solid 1px $blue2;
+  background-image: linear-gradient(to bottom, #53acde, #00519f);
+  color: white;
+  min-height: 68px;
+}
+
 @media screen and (max-width: 768px) {
   .btn-large {
     padding: 0;

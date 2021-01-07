@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    background-color: #c75082;
+    background-color: $orange;
     font-family: $font-gotham;
 
     &__content {
@@ -65,7 +65,7 @@
 
     &__cnpj {
         margin-top: 44px;
-        background-color: #963c62;
+        background-color: $orange2;
         text-align: center;
         line-height: 1.4;
         letter-spacing: 0.61px;
@@ -95,7 +95,7 @@
         height: 30px;
         background-color: white;
         border-radius: 50%;
-        color: $pink;
+        color: $orange2;
         margin-right: 20px;
 
         * {

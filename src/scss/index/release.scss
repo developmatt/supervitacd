@@ -1,7 +1,7 @@
 .release {
   width: 100%;
   min-height: 720px;
-  background: linear-gradient(to bottom, $purple2, $purple);
+  background: linear-gradient(to bottom, #ff9e00, #c25800);
   padding: 35px 0 47px 0;
 
   &__title {
@@ -9,6 +9,7 @@
     font-weight: 300;
     color: white;
     text-align: center;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
 
     .bold {
       font-weight: 800;
@@ -24,6 +25,7 @@
     font-weight: 300;
     line-height: 26px;
     margin-top: 10px;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
 
     .bold {
       font-weight: 800;
@@ -50,7 +52,7 @@
 
     &__subtitle {
       font-size: 24px;
-      color: $purple;
+      color: #00519f;
       font-weight: 800;
       display: block;
       text-align: center;
@@ -99,7 +101,7 @@
       }
 
       &--parcels {
-        color: $pink;
+        color: $orange2;
         font-size: 16px;
         max-width: 160px;
         min-width: 104px;
@@ -116,13 +118,13 @@
       }
 
       &--value {
-        color: $purple;
+        color: $blue;
         font-weight: 800;
         font-size: 50px;
       }
 
       &--cents {
-        color: $purple;
+        color: $blue;
         font-size: 24px;
       }
 
@@ -145,7 +147,7 @@
       top: -16px;
       margin: 0 auto;
       height: 28px;
-      background-color: $pink;
+      background-color: #00519f;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -155,7 +157,7 @@
       font-size: 18px;
       font-weight: 300;
       border-radius: 4px;
-      border: solid 1px #ba3b70;
+      border: solid 1px #00519f;
       letter-spacing: 1.09px;
     }
 
