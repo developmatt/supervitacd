@@ -11,7 +11,7 @@
                 <li class="menu__item"><a href="#" class="menu__item-link">Benefícios</a></li>
                 <li class="menu__item"><a href="#" class="menu__item-link">Depoimentos</a></li>
                 <li class="menu__item"><a href="#" class="menu__item-link">Como funciona</a></li>
-                <li class="menu__item"><a href="#" class="menu__item-link btn btn-purple">Ver preços</a></li>
+                <li class="menu__item"><a href="#" class="menu__item-link btn btn-orange">Ver preços</a></li>
             </ul>
         </nav>
     </div>

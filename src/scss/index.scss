@@ -45,7 +45,7 @@ footer {
 .page-title {
   font-size: 34px;
   text-align: center;
-  color: $purple;
+  color: $orange2;
   font-weight: 100;
 }
 
@@ -88,6 +88,13 @@ body.terms {
 
 body.composition {
   @import "./composition/index.scss";
+}
+
+@media screen and (max-width: 1180px) {
+  .wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 @media screen and (max-width: 768px) {

@@ -33,3 +33,16 @@
         max-width: 780px;
     }
 }
+
+@media screen and (max-width: 650px) {
+    .virus {
+        &-container {
+            flex-direction: column;
+            align-items: center;
+        
+            &__image-div {
+                margin: 20px 0;
+            }
+        }
+    }
+}

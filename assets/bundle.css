@@ -4694,7 +4694,8 @@ readers do not read off random characters that represent icons */
   border: solid 1px #3e82c7;
   background-image: linear-gradient(to bottom, #53acde, #00519f);
   color: white;
-  min-height: 68px; }
+  min-height: 68px;
+  border-radius: 4px; }
 
 @media screen and (max-width: 768px) {
   .btn-large {
@@ -5070,7 +5071,7 @@ footer {
 .page-title {
   font-size: 34px;
   text-align: center;
-  color: #462e72;
+  color: #c25800;
   font-weight: 100; }
 
 .wrapper {
@@ -5120,7 +5121,8 @@ body.index { }
       position: absolute;
       top: 102px;
       right: 235px;
-      height: 196px; }
+      height: 196px;
+      z-index: 0; }
     body.index .main__safe-buy {
       position: absolute;
       top: 30px;
@@ -5178,7 +5180,15 @@ body.index { }
           letter-spacing: 0.8px;
           font-weight: 300;
           font-size: 16px; }
+  @media screen and (min-width: 1360px) and (max-width: 1150px) {
+    body.index .main {
+      overflow-x: hidden; } }
+  @media screen and (max-width: 1150px) {
+    body.index .main__pills {
+      display: none; } }
   @media screen and (max-width: 1100px) {
+    body.index .main__button {
+      z-index: 1; }
     body.index .video .video-container {
       height: 250px;
       overflow: hidden; } }
@@ -5213,9 +5223,9 @@ body.index { }
         max-width: 233px;
         margin-top: 16px; }
       body.index .main__safe-buy {
-        left: calc(50% - 100px);
+        left: calc(50% - 160px);
         top: auto;
-        bottom: -100px; }
+        bottom: -150px; }
       body.index .main__bottom {
         height: auto;
         top: calc(100% + 100px);
@@ -5253,6 +5263,12 @@ body.index { }
       color: #696969;
       margin-top: 24px;
       max-width: 780px; }
+  @media screen and (max-width: 650px) {
+    body.index .virus-container {
+      flex-direction: column;
+      align-items: center; }
+      body.index .virus-container__image-div {
+        margin: 20px 0; } }
   body.index .video {
     background-color: white;
     background-image: url("/images/video-background-section.png");
@@ -5382,7 +5398,8 @@ body.index { }
       line-height: 1.33;
       letter-spacing: 1.45px; }
     body.index .advantages__container {
-      flex-direction: column; }
+      flex-direction: column;
+      align-items: center; }
     body.index .advantages__block {
       width: 340px;
       margin-bottom: 24px; } }
@@ -5433,6 +5450,13 @@ body.index { }
         padding-right: 10px; }
     body.index .important__kid {
       width: 401px; }
+  @media screen and (max-width: 900px) {
+    body.index .important__row {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px; }
+    body.index .important__col-text {
+      margin-bottom: 10px; } }
   body.index .comments {
     width: 100%;
     min-height: 440px;
@@ -6167,7 +6191,8 @@ body.video { }
       line-height: 1.33;
       letter-spacing: 1.45px; }
     body.video .advantages__container {
-      flex-direction: column; }
+      flex-direction: column;
+      align-items: center; }
     body.video .advantages__block {
       width: 340px;
       margin-bottom: 24px; } }
@@ -6666,7 +6691,7 @@ body.doubts .doubts {
 
 body.doubts .doubt {
   width: calc(50% - 5px);
-  border: solid 1px #3e82c7;
+  border: solid 1px #53acde;
   border-radius: 8px;
   overflow: hidden;
   transition: all 0.3s ease-out;
@@ -6684,7 +6709,7 @@ body.doubts .doubt {
     height: 60px;
     width: 100%;
     cursor: pointer;
-    background-color: #3e82c7;
+    background-color: #53acde;
     padding: 0 20px;
     color: white;
     font-size: 18px; }
@@ -6794,6 +6819,11 @@ body.composition .composition__image {
     body.composition .composition__table-div {
       width: calc(100% - 40px);
       margin: 0 20px 51px 20px; } }
+
+@media screen and (max-width: 1180px) {
+  .wrapper {
+    padding-left: 10px;
+    padding-right: 10px; } }
 
 @media screen and (max-width: 768px) {
   .page-title {

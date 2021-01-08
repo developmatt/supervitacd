@@ -55,6 +55,7 @@
     top: 102px;
     right: 235px;
     height: 196px;
+    z-index: 0;
   }
 
   &__safe-buy {
@@ -143,7 +144,23 @@
   }
 }
 
+@media screen and (min-width: 1360px) and (max-width: 1150px) {
+  .main {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .main__pills {
+      display: none;
+  }
+}
+
 @media screen and (max-width: 1100px) {
+  .main__button {
+    z-index: 1;
+  }
+  
   .video {
     .video-container {
       height: 250px;
@@ -199,9 +216,9 @@
     }
 
     &__safe-buy {
-      left: calc(50% - 100px);
+      left: calc(50% - 160px);
       top: auto;
-      bottom: -100px;
+      bottom: -150px;
     }
 
     &__bottom {

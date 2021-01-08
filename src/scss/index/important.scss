@@ -69,3 +69,15 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+
+    .important__row {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .important__col-text {
+        margin-bottom: 10px;
+    }
+}
