@@ -22,14 +22,20 @@
 
     &__table-div {
         margin-bottom: 50px;
+        max-width: 577px;
+    }
+
+    &__table {
+        width: 100%;
     }
 
     &__image-div {
-        margin-right: 120px;
+        margin-right: 10px;
+        max-width: 315px;
     }
 
     &__image {
-        height: 100%;
+        width: 100%;
     }
 }
 
