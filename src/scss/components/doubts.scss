@@ -83,6 +83,9 @@
 }
 
 @media screen and (max-width: 768px) {
+    body.doubts {
+        padding-top: 0;
+    }
     .doubts {
         &__container {
             flex-direction: column;
