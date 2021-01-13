@@ -1,7 +1,16 @@
 <section id="offer" class="offer">
     <div class="wrapper">
-      <h3 class="offer__description">Aproveite agora e receba o SUPERVITA KIDS no conforto de sua casa, um suplemento alimentar cheio de vitaminas e minerais para sua criança.</h3>
+      <div class="offer-image-div">
+        <div class="book-container">
+          <img src="/images/book.png" class="book__image">
+          <span class="book__text">Você recebe um <span class="book__purple">Livro de atividades Supervita Kids</span> muito divertido!</span>
+        </div>
+      </div>
 
-      <a href="#" class="btn btn-large btn-blue">QUERO MEU FILHO SAUDÁVEL</a>
+      <div class="offer-text-div">
+        <h3 class="offer__description">Aproveita agora e receba o SUPERVITA KIDS Sabor Cereja no conforto de sua casa, um suplemento com Vitamina C, D e Zinco para sua criança.</h3>
+
+        <a href="#" class="btn btn-large btn-blue">QUERO MEU FILHO SAUDÁVEL</a>
+      </div>
     </div>
   </section>

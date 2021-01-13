@@ -5,6 +5,7 @@
 
 @import "./components/menu.scss";
 @import "./components/offer.scss";
+@import "./components/doubts.scss";
 
 * {
   text-decoration: none;
@@ -76,10 +77,6 @@ body.video {
   @import "./index/release.scss";
   @import "./index/shields.scss";
   @import "./index/credit_card.scss";
-}
-
-body.doubts {
-  @import "./doubts/index.scss";
 }
 
 body.terms {

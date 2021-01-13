@@ -352,6 +352,8 @@
             </div>
         </section>
 
+        <?php require('./components/doubts.php'); ?>
+
         <section id="shields" class="shields">
             <div class="wrapper shields__container">
                 <div class="shields__block shield__block">
@@ -395,7 +397,7 @@
 
                 <div class="credit-card__block credit-card__block--medium">
                     <div class="credit-card__parcels-image-block">
-                        <img src="/images/icon-pink-card.png" alt="" class="credit-card__parcels-image">
+                        <img src="/images/icon-credit-card.png" alt="" class="credit-card__parcels-image">
                     </div>
                     <div class="credit-card__parcels-block">
                         <span class="parcels"><strong class="big">6</strong><strong>x</strong>SEM JUROS <br> NO CARTÃO DE

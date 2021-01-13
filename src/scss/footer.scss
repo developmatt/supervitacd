@@ -1,6 +1,10 @@
+footer {
+    background-color: $orange2;
+}
+
 .footer {
     width: 100%;
-    background-color: $orange;
+    background-color: rgba(0, 0, 0, 0.2);;
     font-family: $font-gotham;
 
     &__content {
