@@ -56,8 +56,35 @@
             width: 230px;
         }
     }
+}
 
-    @media screen and (max-width: 750px) {
-        display: none;
+@media screen and (max-width: 750px) {
+    .video {
+        height: auto;
+
+        .wrapper {
+            flex-direction: column;
+        }
+
+        &-container {
+            text-align: center;
+        }
+
+        .text-container {
+            padding: 0 20px 20px 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            height: auto;
+
+            &__image {
+                position: relative;
+                left: auto;
+                top: auto;
+            }
+
+            &__text {
+                margin-left: 0;
+            }
+        }
     }
 }
