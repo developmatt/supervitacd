@@ -24,7 +24,19 @@
         case 'privacy':
             require('html/privacy-terms.php');
             break;
+        
+        case 'upsell':
+                require('html/upsell.php');
+                break;
+         
+        case 'obrigado':
+            require('html/obrigado.php');
+            break;  
 
+        case 'obrigado-boleto':
+            require('html/obrigado-boleto.php');
+            break;         
+                              
         default:
             require('html/index.php');
             break;

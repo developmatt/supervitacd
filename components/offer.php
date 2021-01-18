@@ -10,7 +10,7 @@
       <div class="offer-text-div">
         <h3 class="offer__description">Aproveita agora e receba o SUPERVITA KIDS Sabor Cereja no conforto de sua casa, um suplemento com Vitamina C, D e Zinco para sua criança.</h3>
 
-        <a href="#" class="btn btn-large btn-blue">QUERO MEU FILHO SAUDÁVEL</a>
+        <a href="/#release" class="btn btn-large btn-blue">QUERO MEU FILHO SAUDÁVEL</a>
       </div>
     </div>
   </section>

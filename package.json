@@ -1,5 +1,5 @@
 {
-  "name": "healthkids",
+  "name": "supervitacd",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -29,15 +29,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/developmatt/healthkids.git"
+    "url": "git+https://github.com/developmatt/supervitacd.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/developmatt/healthkids/issues"
+    "url": "https://github.com/developmatt/supervitacd/issues"
   },
-  "homepage": "https://github.com/developmatt/healthkids#readme",
+  "homepage": "https://github.com/developmatt/supervitacd#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.1",
     "formstone": "^1.4.16-1",

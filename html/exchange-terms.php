@@ -10,11 +10,11 @@
 
         <section class="terms-content wrapper">
             <span class="terms__tabs">
-                <span class="terms__tabs-item">Termos</span>
+                <span class="terms__tabs-item"><a href="/terms">Termos</a></span>
                 <span class="terms__tabs-divider"></span>
-                <span class="terms__tabs-item"><strong>Políticas de troca e devolução</strong></span>
+                <span class="terms__tabs-item"><a href="/exchange"><strong>Políticas de troca e devolução</strong></a></span>
                 <span class="terms__tabs-divider"></span>
-                <span class="terms__tabs-item">Condições</span>
+                <span class="terms__tabs-item"><a href="/privacy">Políticas de Privacidade</a></span>
             </span>
             <h2 class="page-title">Políticas de Troca e Devolução</h2>
 
