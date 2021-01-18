@@ -12,7 +12,7 @@
 
             <ul class="footer-social__ul">
               <li class="footer-social__li">
-                <a href="#" class="footer-social__a">
+                <a href="https://www.facebook.com/supervitakids/" class="footer-social__a">
                   <span class="footer-social__icon-block">
                     <i class="fab fa-facebook-square"></i>
                   </span>
@@ -21,7 +21,7 @@
               </li>
 
               <li class="footer-social__li">
-                <a href="#" class="footer-social__a">
+                <a href="https://www.instagram.com/supervitakids/" class="footer-social__a">
                   <span class="footer-social__icon-block">
                     <i class="fab fa-instagram"></i>
                   </span>
@@ -49,7 +49,7 @@
               </li>
 
               <li class="footer-social__li">
-                <a href="#" class="footer-social__a">
+                <a href="mailto:atendimento@nwse.com.br" class="footer-social__a">
                   <span class="footer-social__icon-block">
                     <i class="far fa-envelope"></i>
                   </span>
@@ -62,9 +62,11 @@
 
         <div class="footer__nav">
           <ul class="footer__ul">
-            <li class="footer__li"><a href="#" class="footer__li-link">DÚVIDAS FREQUENTES</a></li>
-            <li class="footer__li"><a href="#" class="footer__li-link">COMPOSIÇÃO</a></li>
-            <li class="footer__li"><a href="#" class="footer__li-link">TERMOS E CONDIÇÕES</a></li>
+            <li class="footer__li"><a href="/doubts" class="footer__li-link">DÚVIDAS FREQUENTES</a></li>
+            <li class="footer__li"><a href="/composition" class="footer__li-link">COMPOSIÇÃO</a></li>
+            <li class="footer__li"><a href="/terms" class="footer__li-link">TERMOS DE USO</a></li>
+            <li class="footer__li"><a href="/privacy" class="footer__li-link">POLÍTICA DE PRIVACIDADE</a></li>
+            <li class="footer__li"><a href="/exchange" class="footer__li-link">POLÍTICA DE DEVOLUÇÃO</a></li>
           </ul>
         </div>
       </div>

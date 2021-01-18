@@ -40,6 +40,10 @@
                         'title' => 'Supervita kids causa alergia?',
                         'description' => 'Por questões de regulação técnica da Anvisa e segurança do fabricante, foi inserido no rótulo do <strong>Supervita Kids</strong> (saiba mais), assim como vários outros produtos no mercado, que pode conter: leite, soja e peixe, devido a outros produtos que também são criados na fábrica. Porém não contém nenhum desses ingredientes em nossa fórmula, ele é feito <strong>a base de pectina vegetal</strong>.'
                     ],
+                    [
+                        'title' => 'Quantas gomas vem em cada embalagem?',
+                        'description' => 'Cada embalagem possui 60 gomas, suprindo para 30 dias, conforme sugestão de consumo.</strong>.'
+                    ],
                 ];
 
                 foreach($doubts as $doubt) {

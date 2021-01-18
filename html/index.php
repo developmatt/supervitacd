@@ -8,8 +8,9 @@
 
             <div class="main__container wrapper">
                 <h2 class="main__title">SUPLEMENTO ALIMENTAR EM PASTILHA DE GOMA DE VITAMINAS</h2>
+                <h3 class="main__subtitle">60 saborosas <span class="main__subtitle--bold">Gomas de Pectina.</span></h3>
 
-                <a href="#" class="main__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
+                <a href="#release" class="main__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
 
                 <img src="./images/pills.png" alt="Vitaminas C, D e Zinco" class="main__pills">
 
@@ -64,7 +65,8 @@
             <div class="wrapper">
                 <div class="video-container">
 
-                    <iframe width="600" height="338" src="https://www.youtube.com/embed/fNmxNS25Wf4" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/498054388?title=false&byline=false" width="600" height="338" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
                 </div>
 
                 <div class="text-container">
@@ -112,7 +114,7 @@
             </div>
         </section>
 
-        <section id="important" class="important">
+        <section id="best" class="important">
             <div class="wrapper">
                 <h3 class="important__title">O que é tão importante nas <strong>vitaminas em goma</strong>?</h3>
 
@@ -142,27 +144,57 @@
             </div>
         </section>
 
-        <section class="comments">
+        <section id="user_comments" class="comments">
+            <!-- VIDEO -->
             <div class="comments__content wrapper">
-                <h2 class="comments__title">O QUE DIZEM DO SUPERVITA KIDS?</h2>
+            <h2 class="comments__title">O QUE DIZEM DO SUPERVITA KIDS?</h2>
 
+
+            <div class="comments__slider-container">
+                <div class="carousel" id="carousel-video">
+                <div class="comments__comment-div">
+
+                    <div class="comment">
+                    <div class="comment__text-block video-responsive">
+                        <iframe src="https://player.vimeo.com/video/498063971?title=false&byline=false" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                    </div>
+                    </div>
+
+                </div>
+
+                <div class="comments__comment-div">
+
+                    <div class="comment">
+                    <div class="comment__text-block video-responsive">
+                        <iframe src="https://player.vimeo.com/video/498064644?title=false&byline=false" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                    </div>
+                    </div>
+
+                </div>
+
+                </div>
+                <span class="comments__previous comments__controller comments__controller--left" id="comments__previous__video"><i class="fas fa-chevron-left"></i></span>
+                <span class="comments__next comments__controller comments__controller--right" id="comments__next__video"><i class="fas fa-chevron-right"></i></span>
+
+            </div>
+            </div>
+            <br />
+            <!-- TEXTO -->
+            <div class="comments__content wrapper">
                 <div class="comments__slider-container">
-                    <div class="carousel">
+                    <div class="carousel" id="carousel-text">
                         <div class="comments__comment-div">
 
                             <div class="comment">
                                 <div class="comment__image-container">
-                                    <img src="/images/thispersondoesnotexist.jpeg" alt="" class="comment__image">
+                                    <img src="/images/foto_doubt_1.png" alt="" class="comment__image">
                                 </div>
 
                                 <div class="comment__text-block">
-                                    <p class="comment__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quam
-                                        facilis.
-                                        At enim nostrum asperiores officia illum, quam distinctio repellat, hic aliquam quis, tempora neque
-                                        sequi necessitatibus non omnis esse!</p>
+                                    <p class="comment__text">Incrível! Melhor forma de consumir vitaminas, meu filho adorou e sempre me lembra de dar as gominhas .</p>
 
-                                    <span class="comment__name">Maiara</span>
-                                    <spann class="comment__nick">email@gmail.com</spann>
+                                    <span class="comment__name">Renata</span>
+                                    <spann class="comment__nick">Belo Horizonte - MG</spann>
                                 </div>
                             </div>
 
@@ -172,17 +204,14 @@
 
                             <div class="comment">
                                 <div class="comment__image-container">
-                                    <img src="/images/thispersondoesnotexist.jpeg" alt="" class="comment__image">
+                                    <img src="/images/foto_doubt_2.png" alt="" class="comment__image">
                                 </div>
 
                                 <div class="comment__text-block">
-                                    <p class="comment__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quam
-                                        facilis.
-                                        At enim nostrum asperiores officia illum, quam distinctio repellat, hic aliquam quis, tempora neque
-                                        sequi necessitatibus non omnis esse!</p>
+                                    <p class="comment__text">Suplemento em capsula sempre foi uma dificuldade para a minha filha consumir, mais com esse suplemento em gomas resolveu meu problema e me sinto realizada em complementar sua vitaminas.</p>
 
-                                    <span class="comment__name">Maiara</span>
-                                    <spann class="comment__nick">email@gmail.com</spann>
+                                    <span class="comment__name">Claudia</span>
+                                    <spann class="comment__nick">Caxias do Sul - RS</spann>
                                 </div>
                             </div>
 
@@ -192,17 +221,14 @@
 
                             <div class="comment">
                                 <div class="comment__image-container">
-                                    <img src="/images/thispersondoesnotexist.jpeg" alt="" class="comment__image">
+                                    <img src="/images/foto_doubt_3.png" alt="" class="comment__image">
                                 </div>
 
                                 <div class="comment__text-block">
-                                    <p class="comment__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quam
-                                        facilis.
-                                        At enim nostrum asperiores officia illum, quam distinctio repellat, hic aliquam quis, tempora neque
-                                        sequi necessitatibus non omnis esse!</p>
+                                    <p class="comment__text">Minha filha é daquelas que só come carne, batata frita e arroz, sempre me preocupei em relação a vitaminas. Estou muito satisfeita em saber que as vitaminas em gomas vão ajudar a contribuir com a saúde do minha filha.</p>
 
-                                    <span class="comment__name">Maiara</span>
-                                    <spann class="comment__nick">email@gmail.com</spann>
+                                    <span class="comment__name">Fernanda</span>
+                                    <spann class="comment__nick">Rio de Janeiro - RJ</spann>
                                 </div>
                             </div>
 
@@ -212,17 +238,14 @@
 
                             <div class="comment">
                                 <div class="comment__image-container">
-                                    <img src="/images/thispersondoesnotexist.jpeg" alt="" class="comment__image">
+                                    <img src="/images/foto_doubt_4.png" alt="" class="comment__image">
                                 </div>
 
                                 <div class="comment__text-block">
-                                    <p class="comment__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quam
-                                        facilis.
-                                        At enim nostrum asperiores officia illum, quam distinctio repellat, hic aliquam quis, tempora neque
-                                        sequi necessitatibus non omnis esse!</p>
+                                    <p class="comment__text">Eu e meu marido trabalhamos, e por mais que tente acompanhar a alimentação dos meus filhos sei que ela é deficiente. Pesquisei na internet e encontrei essas gomas com vitaminas, meus filhos estão adorando!</p>
 
-                                    <span class="comment__name">Maiara</span>
-                                    <spann class="comment__nick">email@gmail.com</spann>
+                                    <span class="comment__name">Márcia</span>
+                                    <spann class="comment__nick">Curvelo - MG</spann>
                                 </div>
                             </div>
 
@@ -232,17 +255,14 @@
 
                             <div class="comment">
                                 <div class="comment__image-container">
-                                    <img src="/images/thispersondoesnotexist.jpeg" alt="" class="comment__image">
+                                    <img src="/images/foto_doubt_5.png" alt="" class="comment__image">
                                 </div>
 
                                 <div class="comment__text-block">
-                                    <p class="comment__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quam
-                                        facilis.
-                                        At enim nostrum asperiores officia illum, quam distinctio repellat, hic aliquam quis, tempora neque
-                                        sequi necessitatibus non omnis esse!</p>
+                                    <p class="comment__text">Amei o produto e o carinho no atendimento da empresa, pois é primordial além de ter um bom produto termos um bom atendimento, parabéns a empresa!</p>
 
-                                    <span class="comment__name">Maiara</span>
-                                    <spann class="comment__nick">email@gmail.com</spann>
+                                    <span class="comment__name">Poliana</span>
+                                    <spann class="comment__nick">Maceió - AL</spann>
                                 </div>
                             </div>
 
@@ -251,11 +271,10 @@
                     </div>
                 </div>
 
-                <span class="comments__previous comments__controller comments__controller--left"><i class="fas fa-chevron-left"></i></span>
-                <span class="comments__next comments__controller comments__controller--right"><i class="fas fa-chevron-right"></i></span>
+                <span class="comments__previous comments__controller comments__controller--left" id="comments__previous__text"><i class="fas fa-chevron-left"></i></span>
+                <span class="comments__next comments__controller comments__controller--right" id="comments__next__text"><i class="fas fa-chevron-right"></i></span>
 
-
-                <a href="#" class="comments__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
+                <a href="#release" class="comments__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
 
 
             </div>
@@ -265,6 +284,7 @@
         $currentRelease = [];
         $arrayRelease = [
             [
+                'url' => 'http://mon.net.br/152elt',
                 'image_url' => '/images/kit-1.png',
                 'price' => '24',
                 'price_cents' => '12',
@@ -275,6 +295,7 @@
                 'total' => 'Total: 144,70'
             ],
             [
+                'url' => 'http://mon.net.br/152eu9',
                 'image_url' => '/images/kit-3.png',
                 'price' => '63',
                 'price_cents' => '66',
@@ -285,6 +306,7 @@
                 'total' => 'De: <span class="striked">434,10</span class="striked"> Por: 378,10'
             ],
             [
+                'url' => 'http://mon.net.br/152evd',
                 'image_url' => '/images/kit-5.png',
                 'price' => '101',
                 'price_cents' => '92',
@@ -308,7 +330,7 @@
                 <?php foreach ($arrayRelease as $currentRelease) :  ?>
 
                     <div class="column">
-                        <span class="column__title">COMPRE <?= $currentRelease['ammount'] ?></span>
+                        <span class="column__title">Compre <?= $currentRelease['ammount'] == 1 ? $currentRelease['ammount']. ' mês': $currentRelease['ammount']. ' meses'?> de SuperVita Kids</span>
                         <div class="column__card">
                             <?php if ($currentRelease['selling_champion']) : ?>
                                 <span class="column__subtitle">CAMPEÃO DE VENDAS</span>
@@ -343,7 +365,7 @@
 
                             <span class="column__total"><?= $currentRelease['total'] ?></span>
 
-                            <a href="#" class="btn btn-blue column__button">COMPRAR AGORA</a>
+                            <a href="<?= $currentRelease['url'] ?>" class="btn btn-blue column__button">COMPRAR AGORA</a>
                         </div>
                     </div>
 

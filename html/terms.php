@@ -10,9 +10,11 @@
 
         <section class="terms-content wrapper">
             <span class="terms__tabs">
-                <span class="terms__tabs-item">Termos</span>
+                <span class="terms__tabs-item"><a href="/terms"><strong>Termos</a></span>
                 <span class="terms__tabs-divider"></span>
-                <span class="terms__tabs-item">Condições</span>
+                <span class="terms__tabs-item"><a href="/exchange">Políticas de troca e devolução</a></span>
+                <span class="terms__tabs-divider"></span>
+                <span class="terms__tabs-item"><a href="/privacy">Políticas de Privacidade</a></span>
             </span>
             <h2 class="page-title">TERMOS</h2>
 

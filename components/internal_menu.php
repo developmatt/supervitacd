@@ -8,10 +8,10 @@
 
         <nav id="menu" class="menu">
             <ul class="menu__list">
-                <li class="menu__item"><a href="#" class="menu__item-link">Benefícios</a></li>
-                <li class="menu__item"><a href="#" class="menu__item-link">Depoimentos</a></li>
-                <li class="menu__item"><a href="#" class="menu__item-link">Como funciona</a></li>
-                <li class="menu__item"><a href="#" class="menu__item-link btn btn-orange">Ver preços</a></li>
+                <li class="menu__item"><a href="/#advantages" class="menu__item-link">Benefícios</a></li>
+                <li class="menu__item"><a href="/#user_comments" class="menu__item-link">Depoimentos</a></li>
+                <li class="menu__item"><a href="/#best" class="menu__item-link">Por que é o melhor?</a></li>
+                <li class="menu__item"></li>
             </ul>
         </nav>
     </div>
@@ -37,18 +37,15 @@
 
     <div class="menu-mobile__body">
         <div class="menu-mobile__column">
-            <a href="#" class="menu-mobile__link">Benefícios</a>
-            <a href="#" class="menu-mobile__link">Depoimentos</a>
-            <a href="#" class="menu-mobile__link">Como funciona</a>
-
-            <a href="#" class="menu-mobile__button">Ver Preços</a>
-
+            <a href="/#advantages" class="menu-mobile__link">Benefícios</a>
+            <a href="/#user_comments" class="menu-mobile__link">Depoimentos</a>
+            <a href="/#best" class="menu-mobile__link">Por que é o melhor?</a>
             <div class="menu-mobile__social">
                 <span class="menu-mobile__social-title">REDES SOCIAIS</span>
 
                 <div class="menu-mobile__social-icons">
-                    <a href="#" class="menu-mobile__social--icon"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#" class="menu-mobile__social--icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/supervitakids/" class="menu-mobile__social--icon"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/supervitakids/" class="menu-mobile__social--icon"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
