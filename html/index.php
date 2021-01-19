@@ -65,7 +65,7 @@
             <div class="wrapper">
                 <div class="video-container">
 
-                <iframe src="https://player.vimeo.com/video/498054388?title=false&byline=false" width="600" height="338" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/501969335?title=false&byline=false" width="600" height="338" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
                 </div>
 
@@ -166,7 +166,7 @@
 
                     <div class="comment">
                     <div class="comment__text-block video-responsive">
-                        <iframe src="https://player.vimeo.com/video/498064644?title=false&byline=false" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        <iframe src="https://player.vimeo.com/video/501969236?title=false&byline=false" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                     </div>
                     </div>
 
