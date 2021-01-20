@@ -7,7 +7,7 @@
             <?php require('./components/menu.php'); ?>
 
             <div class="main__container wrapper">
-                <h2 class="main__title">SUPLEMENTO ALIMENTAR EM PASTILHA DE GOMA DE VITAMINAS</h2>
+                <h2 class="main__title">REFORÇO PARA A IMUNIDADE DO SEU FILHO<br></h2>
                 <h3 class="main__subtitle">60 saborosas <span class="main__subtitle--bold">Gomas de Pectina.</span></h3>
 
                 <a href="#release" class="main__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
@@ -180,94 +180,62 @@
             </div>
             <br />
             <!-- TEXTO -->
+            <?php
+                $currentComment = [];
+                $arrayComment = [
+                [
+                    'avatar' => '/images/foto_doubt_1.png',
+                    'comment' => 'Comprei para dar aos meus filhos, que apesar de comer bem, fico preocupada em saber se o sistema imune deles estão em dia com as vitaminas.',
+                    'name' => 'Mariana',
+                    'city' => 'São Paulo - SP',
+                ],
+                [
+                    'avatar' => '/images/foto_doubt_2.png',
+                    'comment' => 'Minha filha amou, e eu também, tem um gosto maravilhoso de cereja, além de ser uma vitamina essencial nos dias de hoje.',
+                    'name' => 'Priscila',
+                    'city' => 'Vitória - ES',
+                ],
+                [
+                    'avatar' => '/images/foto_doubt_3.png',
+                    'comment' => 'Caiu como uma luva aqui em casa, pois nessa correria do dia-dia é importante dar um complemento vitamínico. Estamos experimentando e gostando muito.',
+                    'name' => 'Cristina',
+                    'city' => 'Santa Bárbara d`este - SP',
+                ],
+                [
+                    'avatar' => '/images/foto_doubt_4.png',
+                    'comment' => 'É uma goma muito saborosa, tinha minhas dúvidas, mas a nutri da Júlia aprovou!',
+                    'name' => 'Marilia',
+                    'city' => 'Curitiba - PR',
+                ],
+                [
+                    'avatar' => '/images/foto_doubt_5.png',
+                    'comment' => 'Amei o produto e o carinho no atendimento da empresa, pois é primordial além de ter um bom produto eles tem um bom atendimento, parabéns a empresa!',
+                    'name' => 'Poliana',
+                    'city' => 'Maceió - AL',
+                ],
+                ];
+            ?>
             <div class="comments__content wrapper">
                 <div class="comments__slider-container">
                     <div class="carousel" id="carousel-text">
-                        <div class="comments__comment-div">
+                        <?php foreach($arrayComment as $currentComment) :  ?>
+                            <div class="comments__comment-div">
 
-                            <div class="comment">
-                                <div class="comment__image-container">
-                                    <img src="/images/foto_doubt_1.png" alt="" class="comment__image">
+                                <div class="comment">
+                                    <div class="comment__image-container">
+                                        <img src="<?= $currentComment['avatar'] ?>" alt="" class="comment__image">
+                                    </div>
+
+                                    <div class="comment__text-block">
+                                        <p class="comment__text"><?= $currentComment['comment'] ?></p>
+
+                                        <span class="comment__name"><?= $currentComment['name'] ?></span>
+                                        <spann class="comment__nick"><?= $currentComment['city'] ?></spann>
+                                    </div>
                                 </div>
 
-                                <div class="comment__text-block">
-                                    <p class="comment__text">Incrível! Melhor forma de consumir vitaminas, meu filho adorou e sempre me lembra de dar as gominhas .</p>
-
-                                    <span class="comment__name">Renata</span>
-                                    <spann class="comment__nick">Belo Horizonte - MG</spann>
-                                </div>
                             </div>
-
-                        </div>
-
-                        <div class="comments__comment-div">
-
-                            <div class="comment">
-                                <div class="comment__image-container">
-                                    <img src="/images/foto_doubt_2.png" alt="" class="comment__image">
-                                </div>
-
-                                <div class="comment__text-block">
-                                    <p class="comment__text">Suplemento em capsula sempre foi uma dificuldade para a minha filha consumir, mais com esse suplemento em gomas resolveu meu problema e me sinto realizada em complementar sua vitaminas.</p>
-
-                                    <span class="comment__name">Claudia</span>
-                                    <spann class="comment__nick">Caxias do Sul - RS</spann>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="comments__comment-div">
-
-                            <div class="comment">
-                                <div class="comment__image-container">
-                                    <img src="/images/foto_doubt_3.png" alt="" class="comment__image">
-                                </div>
-
-                                <div class="comment__text-block">
-                                    <p class="comment__text">Minha filha é daquelas que só come carne, batata frita e arroz, sempre me preocupei em relação a vitaminas. Estou muito satisfeita em saber que as vitaminas em gomas vão ajudar a contribuir com a saúde do minha filha.</p>
-
-                                    <span class="comment__name">Fernanda</span>
-                                    <spann class="comment__nick">Rio de Janeiro - RJ</spann>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="comments__comment-div">
-
-                            <div class="comment">
-                                <div class="comment__image-container">
-                                    <img src="/images/foto_doubt_4.png" alt="" class="comment__image">
-                                </div>
-
-                                <div class="comment__text-block">
-                                    <p class="comment__text">Eu e meu marido trabalhamos, e por mais que tente acompanhar a alimentação dos meus filhos sei que ela é deficiente. Pesquisei na internet e encontrei essas gomas com vitaminas, meus filhos estão adorando!</p>
-
-                                    <span class="comment__name">Márcia</span>
-                                    <spann class="comment__nick">Curvelo - MG</spann>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="comments__comment-div">
-
-                            <div class="comment">
-                                <div class="comment__image-container">
-                                    <img src="/images/foto_doubt_5.png" alt="" class="comment__image">
-                                </div>
-
-                                <div class="comment__text-block">
-                                    <p class="comment__text">Amei o produto e o carinho no atendimento da empresa, pois é primordial além de ter um bom produto termos um bom atendimento, parabéns a empresa!</p>
-
-                                    <span class="comment__name">Poliana</span>
-                                    <spann class="comment__nick">Maceió - AL</spann>
-                                </div>
-                            </div>
-
-                        </div>
-
+                        <?php endforeach; ?>
                     </div>
                 </div>
 
