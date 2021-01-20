@@ -8,7 +8,7 @@
                 $doubts = [
                     [
                         'title' => 'O que é Supervita Kids C, D e Zinco?',
-                        'description' => '<strong>Supervita Kids C, D e Zinco</strong> é um suplemento infantil que possui em sua fórmula as vitaminas C e D e o mineral Zinco, que em conjunto atuam para de forma eficaz aumentando a imunidade e protegendo seu filho.'
+                        'description' => '<strong>Supervita Kids C, D e Zinco</strong> é um suplemento infantil que possui em sua fórmula as vitaminas C e D e o mineral Zinco, que em conjunto atuam de forma eficaz aumentando a imunidade e protegendo seu filho.'
                     ],
 
                     [
