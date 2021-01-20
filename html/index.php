@@ -100,7 +100,7 @@
                             <img src="/images/gum.png" class="advantages__block-image" alt="">
                         </div>
                         <h3 class="advantages__block-title">VITAMINA D</h3>
-                        <p>A <strong>Vitamina D3</strong> ajuda a <strong>fortalecer as células de infecções respiratórias</strong> causadas por <strong>VÍRUS</strong> e <strong>BÁCTÉRIAS</strong>. Estudo feito em <strong>20 países</strong> aponta que o baixo nível de vitamina D no corpo pode estar relacionado a uma maior taxa de mortalidade pelo <strong>NOVO VÍRUS</strong>.</p>
+                        <p>A <strong>Vitamina D3</strong> ajuda a <strong>fortalecer as células de infecções respiratórias</strong> causadas por <strong>VÍRUS</strong> e <strong>BACTÉRIAS</strong>. Estudo feito em <strong>20 países</strong> aponta que o baixo nível de vitamina D no corpo pode estar relacionado a uma maior taxa de mortalidade pelo <strong>NOVO VÍRUS</strong>.</p>
                     </div>
 
                     <div class="advantages__block">
@@ -120,7 +120,7 @@
 
                 <h4 class="important__topic">Boa alimentação</h4>
 
-                <p class="important__text">Dar uma boa alimentação aos nossos filhos é uma tarefa crucial, sem dúvida, mas quando temos que complementar suas vitaminas a tarefa de engolir cápsulas não é  uma experiência muito agradável para eles.</p>
+                <p class="important__text">Dar uma boa alimentação aos nossos filhos é uma tarefa crucial, sem dúvidas, mas quando temos que complementar suas vitaminas a tarefa de engolir cápsulas não é  uma experiência muito agradável para eles.</p>
             
                 <div class="important__row display--flex align-items--flex-start justify-content--space-between">
 
@@ -203,7 +203,7 @@
                 ],
                 [
                     'avatar' => '/images/foto_doubt_4.png',
-                    'comment' => 'É uma goma muito saborosa, tinha minhas dúvidas, mas a nutri da Júlia aprovou!',
+                    'comment' => 'É uma goma muito saborosa, tinha minhas dúvidas, mas a nutri do Matheus aprovou!',
                     'name' => 'Marilia',
                     'city' => 'Curitiba - PR',
                 ],
