@@ -63,7 +63,7 @@
         <div class="footer__nav">
           <ul class="footer__ul">
             <li class="footer__li"><a href="/doubts" class="footer__li-link">DÚVIDAS FREQUENTES</a></li>
-            <li class="footer__li"><a href="/composition" class="footer__li-link">COMPOSIÇÃO</a></li>
+            <!--<li class="footer__li"><a href="/composition" class="footer__li-link">COMPOSIÇÃO</a></li>-->
             <li class="footer__li"><a href="/terms" class="footer__li-link">TERMOS DE USO</a></li>
             <li class="footer__li"><a href="/privacy" class="footer__li-link">POLÍTICA DE PRIVACIDADE</a></li>
             <li class="footer__li"><a href="/exchange" class="footer__li-link">POLÍTICA DE DEVOLUÇÃO</a></li>
