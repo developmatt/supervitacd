@@ -191,6 +191,9 @@
 }
 
 @media screen and (max-width: 650px) {
+  .orange-play {
+    display: none;
+  }
   .main {
     background-image: url("/images/main-background-mobile.png");
     background-position: center;

@@ -83,6 +83,11 @@ body.terms {
   @import "./terms/index.scss";
 }
 
+body.upsell {
+  @import "./upsell/index.scss";
+  @import "./upsell/release.scss";
+}
+
 body.composition {
   @import "./composition/index.scss";
 }

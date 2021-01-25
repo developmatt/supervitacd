@@ -70,7 +70,7 @@
                 </div>
 
                 <div class="text-container">
-                    <img src="/images/orange-play.png" alt="" class="text-container__image">
+                    <img src="/images/orange-play.png" alt="" class="text-container__image orange-play">
                     <div class="text-container__div">
                         <h2 class="text-container__title">Vitamina C, D e Zinco</h2>
                         <span class="text-container__text">Polivitamínico Supervita Sabor Cereja é um suplemento em gomas de pectina.</span>
