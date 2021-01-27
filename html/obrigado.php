@@ -1,4 +1,4 @@
-<?php require('./components/header.php'); ?>
+<?php require('./components/header_obrigado.php'); ?>
 
 <body class="terms">
 
