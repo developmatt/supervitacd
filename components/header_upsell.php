@@ -23,7 +23,6 @@ function url(){
         'transaction_id': ''
     });
   </script>
-  AW-462479561/93PRCLnD9_IBEMnBw9wB
   <!-- Facebook Pixel Code -->
   <script>
   !function(f,b,e,v,n,t,s)
