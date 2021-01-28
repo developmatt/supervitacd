@@ -1,3 +1,9 @@
+<?
+function url(){
+  $pu = parse_url($_SERVER['REQUEST_URI']);
+  return $pu["scheme"] . "://" . $pu["host"];
+}
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -8,9 +14,16 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'AW-462479561');
   </script>
+  <!-- Event snippet for Compra Zinco conversion page -->
+  <script>
+    gtag('event', 'conversion', {
+        'send_to': 'AW-462479561/93PRCLnD9_IBEMnBw9wB',
+        'transaction_id': ''
+    });
+  </script>
+  AW-462479561/93PRCLnD9_IBEMnBw9wB
   <!-- Facebook Pixel Code -->
   <script>
   !function(f,b,e,v,n,t,s)
@@ -21,11 +34,12 @@
   t.src=v;s=b.getElementsByTagName(e)[0];
   s.parentNode.insertBefore(t,s)}(window,document,'script',
   'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '2293366084141052');
+  fbq('init', '2293366084141052'); 
   fbq('track', 'PageView');
+  fbq('track', 'Purchase', {value: 144.70,currency: 'BRL',content_name: 'C D e Zinco',content_ids: 'svk_0101',content_type: 'product'} );
   </script>
   <noscript>
-  <img height="1" width="1"
+  <img height="1" width="1" 
   src="https://www.facebook.com/tr?id=2293366084141052&ev=PageView
   &noscript=1"/>
   </noscript>
@@ -33,7 +47,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="Description" content="Polivitamínico infantil">
-  <title>SuperVita Kids - Vitminas C, D e Zinco</title>
+  <title>SuperVita Kids</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
@@ -44,11 +58,11 @@
   <meta name="theme-color" content="#ffffff">
 
   <meta property="og:locale" content="pt_BR">
-  <meta property="og:url" content="https://supervitakidscdzinco.com.br">
-  <meta property="og:title" content="Reforço para IMUNIDADE do seu filho!">
-  <meta property="og:site_name" content="SuperVita Kids C, D e Zinco">
+  <meta property="og:url" content="https://supervitakids.com.br">
+  <meta property="og:title" content="O melhor POLIVITAMÍNICO INFANTIL para o seu filho!">
+  <meta property="og:site_name" content="SuperVita Kids">
   <meta property="og:description" content="Uma forma eficiente e gostosa para ajudar a complementar diariamente a alimentação infantil.">
-  <meta property="og:image" content="https://supervitakidscdzinco.com.br/images/og_image.png">
+  <meta property="og:image" content="https://supervitakids.com.br/images/og_image.png">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="800">
   <meta property="og:image:height" content="419">
